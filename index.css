@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic');
+
+metro:after {
+    content: "";
+    display: block;
+    padding-bottom: 120%
+}
+
+metro svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+g.metro-station {
+    cursor: pointer
+}
+
+g.metro-station.disabled {
+    cursor: initial
+}
+
+g.metro-station.selected text, g.metro-station.selected tspan {
+    font-weight: 700 !important
+}
+
+g.metro-station.disabled text, g.metro-station.disabled tspan {
+    fill: gray;
+    cursor: initial
+}
+
+g.metro-station.disabled:active text, g.metro-station.disabled tspan:active {
+    fill: #76BB2B;
+}
+
+g.metro-station text.style1 {
+    font-family: 'PT Sans', 'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+    font-size: 20px
+}
+
+g.metro-station.disabled .metro-point {
+    display: none
+}
