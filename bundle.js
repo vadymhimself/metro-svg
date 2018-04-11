@@ -3,6 +3,9 @@
     $("g[id^='s']").on('click', function (event) {
       var $this = $(this);
       var selectedStation = $this.attr('metro-station-name');
+      var coords = stations[selectedStation];
+      // call to the app
+      App.selectStation(selectedStation, coords.lat, coords.lng);
       console.log('selectedStation', JSON.stringify(stations[selectedStation]));
     })
   };
