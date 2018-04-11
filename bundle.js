@@ -6,7 +6,7 @@
       var coords = stations[selectedStation];
       // call to the app
       App.selectStation(selectedStation, coords.lat, coords.lng);
-      console.log('selectedStation', JSON.stringify(stations[selectedStation]));
+      console.log(JSON.stringify(stations[selectedStation]));
     })
   };
 
