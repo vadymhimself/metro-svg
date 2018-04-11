@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic');
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 metro:after {
     content: "";
     display: block;
