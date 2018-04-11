@@ -17,20 +17,7 @@ g.metro-station {
     cursor: pointer
 }
 
-g.metro-station.disabled {
-    cursor: initial
-}
-
-g.metro-station.selected text, g.metro-station.selected tspan {
-    font-weight: 700 !important
-}
-
-g.metro-station.disabled text, g.metro-station.disabled tspan {
-    fill: gray;
-    cursor: initial
-}
-
-g.metro-station.disabled:active text, g.metro-station.disabled tspan:active {
+g.metro-station:active text, g.metro-station tspan:active {
     fill: #76BB2B;
 }
 
