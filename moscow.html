@@ -13,11 +13,13 @@
         <div class="form-group">
             <div class="b-tabs ng-scope" ng-if="toggleMap=='moscow'">
 
-                <div class="map ng-isolate-scope" metro="" stations="stations.moscow" on-select="showInfoMoscow"
+                <div class="map ng-isolate-scope" metro=""
+                     stations="stations.moscow" on-select="showInfoMoscow"
                      map-url="./metro-moscow.svg">
                     <div ng-transclude="">
 
-                        <div metro-info="" offset="{top: 20}" class="mapPopover ng-scope ng-isolate-scope"
+                        <div metro-info="" offset="{top: 20}"
+                             class="mapPopover ng-scope ng-isolate-scope"
                              style="position: absolute; display: none;">
                             <div class="mapPopover__title mapPopover__item ng-binding"></div>
                         </div>
@@ -2109,7 +2111,7 @@
     </div>
 </div>
 <script src="./jquery.min.js"></script>
-
+<script type="text/javascript" src="./moscowFormattedData.js"></script>
 <script type="text/javascript" src="./bundle.js"></script>
 </body>
 </html>

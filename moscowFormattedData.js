@@ -1,4 +1,4 @@
-const formattedData = {
+var stations = {
   "Международная": {
     "lat": 55.7478101,
     "lng": 37.5331569
